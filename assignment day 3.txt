@@ -1,0 +1,77 @@
+1). For the given JSON iterate over all for loops (for, for in, for of, forEach)
+
+ (a).  FOR IN LOOP
+
+let object ={
+    "name":"kiran s",
+    "age":23,
+    "city":"banagalore"
+}
+for(let i in object){
+    console.log(object[i])    
+}
+
+
+ (b).  foreach loop
+
+let object ={
+    "name":"kiran s",
+    "age":23,
+    "city":"banagalore"
+}
+Object.keys(object).forEach(function(key) {
+
+    console.log(key, object[key]);
+  
+});
+
+
+ (c).  for of loop
+
+let object ={
+    "name":"kiran s",
+    "age":23,
+    "city":"banagalore"
+}
+for(let k of Object.keys(object)){
+    console.log(object[k])
+}
+
+
+9D0.  for loop
+
+
+let object ={
+    "name":"kiran s",
+    "age":23,
+    "city":"banagalore"
+}
+let key=[]
+key[0]=object.name
+key[1]=object.age
+key[2]=object.city
+for(let i=0;i<Object.keys(object).length;i++){
+        console.log(key[i])
+} 
+
+
+
+
+2). Create your own resume data in JSON format
+
+let resumedata={
+    "name":"kiran s",
+    "age":23,
+    "gender":"male",
+    "qualification":"Mechanical Engineering",
+    "work experience":"10 months",
+    "city":"bangalore",
+    "educations institute":{
+        "school":"Bethel international public school",
+        "college":'Dayanada sagar college of engineering'
+    }
+}
+
+
+
+
